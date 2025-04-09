@@ -1,0 +1,92 @@
+/** Main */
+.main {
+    flex-grow: 1;
+}
+
+/** Main: Section Call to Action */
+.section-call-to-action {
+    background: var(--Coral-Reef);
+    display: flex;
+    /* height: 44rem; */
+    border-radius: 0 0 0 4rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.4rem;
+    margin: 4rem 0;
+}
+
+/** Main: Section Designed for the Future */
+.content-designed-for-the-future {
+    margin: 9rem 0;
+}
+
+.img-designed-for-the-future {
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 8rem;
+}
+
+.content-designed-for-the-future p {
+    /* color: blue; */
+    text-align: left;
+    line-height: 1.9rem;
+    font-size: 1.2rem;
+}
+
+.section-2 {
+    /* border: 1px solid; */
+    width: 84%;
+    margin: 0 auto;
+}
+
+/** Main: State of the art */
+.section-state-of-the-art {
+    margin: 24rem 0 0;
+    color: white;
+}
+.bg-jacarta {
+    background: var(--Jacarta);
+    height: 47rem;
+    border-radius: 0 12rem;
+}
+
+.content-state-of-the-art {
+    height: 60rem;
+}
+
+.content-state-of-the-art .section-1 {
+    display: flex;
+    position: relative;
+    top: -13rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-state-of-art {
+    width: 30rem;
+    max-width: 30rem;
+}
+
+.content-state-of-the-art .section-2 {
+    position: relative;
+    top: -16rem;
+}
+
+.content-state-of-the-art h2 {
+    font-size: 3.7rem;
+    font-weight: normal;
+}
+
+.content-state-of-the-art p {
+    text-align: left;
+    line-height: 1.9rem;
+    font-size: 1.2rem;
+}
